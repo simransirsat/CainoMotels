@@ -1,0 +1,440 @@
+body{
+  background-image: url("../images/paper_bg.png");
+  background-position: left top ;
+  background-color: white;
+  color: #7d7d7d;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  line-height: 26px;
+  font-size: 15px;
+}
+header{
+  z-index: 1;
+}
+section{
+  padding-bottom: 0;
+}
+.bg-class{
+  background-color: #681505;
+}
+.trans-class{
+  background-color: transparent;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.navigate{
+  display:flex;
+  justify-content: end;
+}
+.navbar-nav{
+  justify-content: flex-end;
+}
+.navbar-dark .navbar-toggler{
+  border-color: transparent;
+  outline: none;
+}
+.navbar-toggler-icon{
+  color: white;
+  border-color: transparent;
+}
+
+.h-100vh{
+  height: 100vh;
+}
+
+.image-hold {
+  height:100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay{
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.03);
+}
+
+header .navbar .navbar-nav .nav-item .nav-link{
+  color: white;
+  padding: 10px 11px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: lightgrey;
+}
+.icon-bar{
+  background-color: #fff;
+  width: 28px;
+  height: 3px;
+  display: block;
+  margin: 3px;
+}
+.wrapper .banner-section{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .banner-section .banner-text{
+  position: absolute;
+  top: calc(50% + 30px);
+  width: 100%;
+}
+
+.wrapper .banner-section .banner-text .welcome {
+  font-family: 'Kristi' , cursive;
+  color: gold;
+  line-height: 1;
+  font-size: 8vh;
+}
+
+.wrapper .banner-section .banner-text .casino-motels {
+    color: #fff;
+    line-height: 1;
+    font-size: 10vh;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.wrapper .banner-section .banner-text .description{
+  color: #fff;
+  line-height: 1;
+  font-size: 2.4vh;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 5px
+}
+
+.quote-section{
+  text-align: center;
+}
+
+.services .quote-section .quote {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #333;
+  letter-spacing: -1px;
+  line-height: 24px;
+  margin: 0px 0px 10px;
+  margin-top: 35px;
+}
+
+.services .quote-section .founder{
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 5px 0 15px;
+  color: #3c2311;
+  margin-top:-5px;
+}
+
+.services .quote-section .sign{
+  font-family: Kristi,cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: #333;
+  margin-top: -5px;
+}
+
+.first-page .first-half{
+  width: 65%;
+  margin-right: 3.5%;
+}
+.wrapper .services .first-page .second-half{
+  width: 45%;
+  padding: 40px;
+  margin-right: 0;
+  background-color: #fff;
+  display:block;
+  position:absolute;
+  font-size: 14px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 20px;
+
+}
+.second-page .first-half{
+  width: 65%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.wrapper .services .second-page .second-half{
+  width: 45%;
+  padding: 40px;
+  margin-right: 0;
+  background-color: #fff;
+  display:block;
+  position:absolute;
+  font-size: 14px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 20px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #3d2d22;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+.title-font{
+  font-size: 40px;
+}
+.title-first{
+  font-size:70px;
+  line-height: 50px;
+  color: gold;
+  font-family: Kristi,cursive;
+}
+.subtitle{
+  margin: 10px 0 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.content-para{
+  text-align:left;
+}
+.section-wrapper{
+  margin-bottom:100px;
+  position: relative;
+}
+.menu-section{
+  position:relative;
+}
+.chef-section .menu-one {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+.chef-section .menu-two{
+  text-align: left;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  background-color: #cb1411;
+  padding: 40px;
+  display: block;
+  color: #fff;
+}
+.chef-section .menu-section .menu-two .title-font , .chef-section .menu-section .menu-two .title-first{
+  color:white;
+}
+.menu{
+  text-align: center;
+}
+.menu .menu-title .title-font {
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.dishes{
+  margin: auto;
+  max-width: 500px;
+}
+.dish-shell{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height:75px;
+}
+.image-holder{
+  display: inline;
+  vertical-align: middle;
+  margin-right: 20px
+  align-self: center;
+}
+.dishes .dish-shell .image-holder a{
+  background-image: url(images/Cafreal.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: block;
+  outline: 0;
+  margin:auto;
+}
+.content-holder{
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+.dish-name{
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 0.6;
+}
+.dish-ingredients{
+  margin: 0 0 10px;
+}
+.price-holder{
+  float: right;
+  margin-top: 10px;
+  margin-right: 0
+}
+.dish-price{
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.gallery-title-image{
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.gallery-title{
+  width:100%;
+  text-align: center;
+}
+.gallery-title h2{
+  font-weight:500;
+  color: white;
+  line-height: 1.1;
+}
+.gallery-container{
+  transform: translate3d(0px, -72px, 0px);
+}
+.gallery-image-holder{
+  width: 100%;
+}
+.gallery-container .gallery-image-holder a{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  display: block;
+  outline: 0;
+}
+
+#map{
+  height:500px;
+  width:100%;
+}
+.map-holder{
+  width:100%;
+  height: 500px;
+}
+.address-holder{
+  width: 100%;
+  background-color: #681505;
+  padding: 40px;
+  display: block;
+  color: #fff;
+  line-height: normal;
+  position: relative;
+}
+
+.foot{
+  background-color: #281e16;
+}
+
+.company-tag{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 1188px){
+.first-page .first-half , .second-page .first-half {
+    width: 100%;
+}
+.wrapper .services .first-page .second-half , .wrapper .services .second-page .second-half {
+    width: 100%;
+    position:relative;
+    top: 0;
+    transform: translateY(0%);
+  }
+  .find{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media only screen and (min-width: 500px){
+  .services .quote-section .quote{
+    font-size: 30px;
+    line-height: 54px;
+  }
+  .title-font{
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 685px){
+  .chef-section .menu-two{
+    width: 40%;
+    left: 90px;
+    top: -40px;
+    position: absolute;
+    background-color: #681505;
+  }
+  .image-holder{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    align-self: center;
+    float: left;
+  }
+  .dishes .dish-shell .image-holder a{
+    display: inline-block;
+  }
+  section{
+    padding-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 576px){
+  .gallery-image-holder{
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 768px){
+  .map-holder{
+    width:65%;
+    height: 500px;
+  }
+  .address-holder{
+    width: 40%;
+    top: 9%;
+    right: 90px;
+    position: absolute;
+  }
+  header .navbar .navbar-nav .nav-item .nav-link {
+    padding: 10px 11px;
+  }
+  .navigate{
+    display: block;
+    width: 100%;
+  }
+
+}
